@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+#logonike {
+    height: 58px;
+    padding-left: 0.5vw;
+
+}
+
+.navbar-style {
+    height: 5.04%;
+    background: white;
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.uldiv a {
+    margin-left: 1.3vw;
+    color: black;
+    background: white;
+}
+
+.icon-bar {
+    background: black;
+}
+
+.uliconsdiv a {
+    margin-right: 0.8vw;
+    margin-left: 1.1vw;
+    background: white;
+
+}
+
+.imgrightnav {
+    height: 2vh;
+    min-height: 14px;
+}
+
+.navbar-toggle {
+    backface-visibility: hidden;
+}
+
+/* NAV BAR FINISHED*/
+
+/* MAIN CONTENT */
+
+.container {
+    margin-top: 0%;
+    padding: 20px;
+}
+
+
+.pricetagdiv {
+    text-align: end;
+}
+
+.shoecase {
+    padding-left: 2px;
+}
+
+.thumbnail {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.mainheading {
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+
+}
+
+.spanheading {
+    background: #F7F7F7;
+}
+
+.container .row a h4 {
+    color: black;
+    font-size: 17px;
+}
+
+.sizerow {
+    margin-top: 10%;
+}
+
+.sizerow2 {
+    margin-top: 16%;
+}
+
+.thumbnaill {
+    margin-top: 13%;
+}
+
+#additemButton {
+    text-align: center;
+    min-height: 50px;
+}
+
+#addButton {
+    height: 3.1vw;
+    min-height: 50px;
+    left: 35%;
+    /* box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.38);*/
+    border-radius: 76px;
+    outline: none;
+}
+
+#addButton:active {
+    transform: scale(0.95);
+}
+
+.secondpart {
+    margin-bottom: 20%;
+}
+
+.sizediv {
+    margin-top: 10px;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.sizeimg {
+    height: 4.2vh;
+}
+
+.thirdpart {
+    padding-left: 0px;
+}
+
+#shoetitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Footer */
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 4vh;
+    min-height: 20px;
+    padding: 1vh;
+    font-size: 1.2vh;
+
+    background-color: #2B2B2B;
+    text-align: center;
+    color: aliceblue;
+}

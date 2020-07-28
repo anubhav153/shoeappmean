@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+#logonike {
+    height: 58px;
+    padding-left: 0.5vw;
+}
+
+.navbar-style {
+    height: 5.04%;
+    background: white;
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.uldiv a {
+    margin-left: 1.3vw;
+    color: black;
+    background: white;
+}
+
+.icon-bar {
+    background: black;
+}
+
+.uliconsdiv a {
+    margin-right: 0.8vw;
+    margin-left: 1.1vw;
+    background: white;
+}
+
+.imgrightnav {
+    height: 2vh;
+    min-height: 14px;
+}
+
+.navbar-toggle {
+    backface-visibility: hidden;
+}
+
+/* NAV BAR FINISHED*/
+
+#heading1 {
+    position: absolute;
+    width: 16vw;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8em;
+    line-height: 7vh;
+    width: 70%;
+    /* identical to box height */
+    left: 17%;
+    top: 23vh;
+    color: #D6E3DC;
+}
+
+#heading2 {
+    position: absolute;
+    width: 70%;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8em;
+    line-height: 7vw;
+    /* identical to box height */
+    left: 16%;
+    top: 10.7vh;
+    color: #5A8C76;
+}
+
+.childDiv1 {
+
+    height: 70vh;
+    background: #5A8C76;
+    border-radius: 40px;
+    top: 10vh;
+}
+
+.childDiv2 {
+
+    height: 70vh;
+    background: #D6E3DC;
+    border-radius: 40px;
+    top: 10vh;
+    /*text-align: center;*/
+}
+
+#exampleInputEmail1 {
+    position: absolute;
+    width: 21.25vw;
+    height: 7.3vh;
+    left: 21.5%;
+    top: 23vh;
+    background: #5A8C76;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.1vw;
+    outline: none;
+    padding: 20px;
+    min-height: 50px;
+    min-width: 250px;
+}
+
+::placeholder {
+    position: relative;
+    color: white;
+    opacity: 0.7;
+    font-size: 1em;
+}
+
+#passwordForm {
+    position: absolute;
+    width: 21.25vw;
+    height: 7.3vh;
+    left: 21.5%;
+    top: 34vh;
+    color: white;
+    font-size: 1.1vw;
+    background: #5A8C76;
+    border-radius: 25px;
+    outline: none;
+    padding: 20px;
+    min-height: 50px;
+    min-width: 250px;
+}
+
+#shopnowButton {
+    position: absolute;
+    left: 35%;
+    top: 44vh;
+}
+
+#shopButton {
+    height: 5.3vw;
+    min-height: 50px;
+    outline: none;
+}
+
+#shopButton:active {
+    transform: scale(0.95);
+}
+
+.signinPage {
+    position: absolute;
+    left: 19%;
+    top: 60vh;
+}
+
+input {
+    border: none;
+}
+
+#signinpageText {
+    position: relative;
+    left: 20%;
+    bottom: 5vh;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    color: aliceblue;
+}
+
+#signinpageText a {
+    color: #5A8C76;
+    font-size: 18px;
+    ;
+}
+
+#logoImg {
+    position: absolute;
+    height: 10vh;
+    left: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+
+    #exampleInputEmail1 {
+        padding-top: 21px;
+        font-size: 15px;
+        top: 19.6vh;
+        width: 20px;
+    }
+
+    ::placeholder {
+        position: relative;
+        color: white;
+        opacity: 0.7;
+        font-size: 15px;
+    }
+
+    #passwordForm {
+        padding-top: 21px;
+        font-size: 15px;
+        top: 30vh;
+    }
+
+    #signinpageText {
+        position: relative;
+        left: 0;
+        bottom: 5vh;
+        font-family: 'Secular One', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: aliceblue;
+        top: -8vh;
+    }
+
+    #signinpageText a {
+        color: #5A8C76;
+        font-size: 15px;
+        ;
+    }
+
+    #shopnowButton {
+        position: absolute;
+        left: 33%;
+        top: 40.4vh;
+    }
+
+    #shopButton {
+        height: 14vw;
+        outline: none;
+    }
+
+    .childDiv1 {
+        height: 20vh;
+        background: #5A8C76;
+        border-radius: 40px;
+        top: 8.5vh;
+    }
+
+    .childDiv2 {
+        height: 67vh;
+        background: #D6E3DC;
+        border-radius: 40px;
+        top: 10vh;
+        /*text-align: center;*/
+    }
+
+    #heading1 {
+        left: 13%;
+        top: 5vh;
+        font-size: 3vh;
+        text-align: center;
+        line-height: 4vh;
+    }
+
+    #heading2 {
+        left: 15%;
+        top: 7vh;
+        font-size: 4vh;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #exampleInputEmail1 {
+        padding-top: 21px;
+        font-size: 15px;
+        top: 19.6vh;
+       
+        min-width: 200px;
+    }
+
+    #passwordForm {
+        padding-top: 21px;
+        font-size: 15px;
+        top: 30vh;
+        min-width: 200px;
+    }
+}
+
+/* Mobile Screen Landscape */
+@media screen and (max-width: 950px) and (min-width: 640px) {
+    
+    .childDiv1 {
+        top: 19vh;
+    }
+
+    .childDiv2 {
+        top: 19vh;
+        left: 1vw;
+        /*text-align: center;*/
+    }
+    #exampleInputEmail1 {
+        padding-top: 21px;
+        font-size: 12px;
+        top: 20.6vh;
+        min-width: 270px;
+        min-height: 5px;
+    }
+
+    #passwordForm {
+        padding-top: 21px;
+        font-size: 13px;
+        top: 35vh;
+        min-width: 270px;
+        min-height: 5px;
+    }
+    #heading1{
+        top: 17vh;
+        font-size: 8vh;
+    }
+    #heading2{
+        top: 1vh;
+        font-size: 8vh;
+        left: 14%;
+    }
+    #shopnowButton {
+        position: absolute;
+        left: 37.9%;
+        top: 47vh;
+    }
+    
+    #signinpageText {
+        position: relative;
+        left: 3vw;
+       
+        font-family: 'Secular One', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: aliceblue;
+        top: -1vh;
+    }
+
+    #signinpageText a {
+        color: #5A8C76;
+        font-size: 16px;
+        ;
+    }
+}
+
+/* SIGN UP FORM STYLES */

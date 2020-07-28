@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+#logonike {
+    height: 58px;
+    padding-left: 0.5vw;
+
+}
+
+.navbar-style {
+    height: 5.04%;
+    background: white;
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.uldiv a {
+    margin-left: 1.3vw;
+    color: black;
+    background: white;
+}
+
+.icon-bar {
+    background: black;
+}
+
+.uliconsdiv a {
+    margin-right: 0.8vw;
+    margin-left: 1.1vw;
+    background: white;
+}
+
+.imgrightnav {
+    height: 2vh;
+    min-height: 14px;
+}
+
+.navbar-toggle {
+    backface-visibility: hidden;
+}
+
+/* NAV BAR FINISHED*/
+
+/* MAIN CONTENT */
+
+.container {
+    margin-top: 1%;
+    padding: 20px;
+}
+
+.pricetagdiv {
+    text-align: end;
+}
+
+.shoecase {
+    padding-left: 2px;
+}
+
+.thumbnail img {
+    padding: 20px;
+}
+
+.mainheading{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2px;
+}
+.container .row a h4{
+    color: black;
+}
+/* Footer */
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 4vh;
+    min-height: 20px;
+    padding: 1vh;
+    font-size: 1.2vh;
+    
+    background-color: #2B2B2B;
+    text-align: center;
+    color: aliceblue;
+}

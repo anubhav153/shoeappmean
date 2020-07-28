@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+#logonike {
+    height: 58px;
+    padding-left: 0.5vw;
+
+}
+
+.navbar-style {
+    height: 5.04%;
+    background: white;
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.uldiv a {
+    margin-left: 1.3vw;
+    color: black;
+    background: white;
+}
+
+.icon-bar {
+    background: black;
+}
+
+.uliconsdiv a {
+    margin-right: 0.8vw;
+    margin-left: 1.1vw;
+    background: white;
+}
+
+.imgrightnav {
+    height: 2vh;
+    min-height: 14px;
+}
+
+.navbar-toggle {
+    backface-visibility: hidden;
+}
+
+/* NAV BAR FINISHED*/
+
+/* Footer */
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 4vh;
+    min-height: 37px;
+    padding: 1vh;
+    font-size: 1.2vh;
+
+    background-color: #2B2B2B;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* MAIN CONTENT */
+.mainheading1 {
+    top: 5vh;
+    padding-top: 20px;
+    text-align: center;
+    background: #000000;
+    height: 95vh;
+}
+
+.mainheading2 {
+    top: 5vh;
+    padding-top: 20px;
+    text-align: center;
+    background: #C4C4C4;
+    height: 95vh;
+}
+
+.ellipse {
+    z-index: 1;
+
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+
+    left: 22vw;
+    top: 20vh;
+    border-radius: 50%;
+    background: #BA1F3B;
+    box-shadow: 0px 20px 200px rgba(250, 66, 66, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mainshoe {
+    z-index: 1;
+    position: absolute;
+    /*
+    width: 650.32px;
+    height: 590.65px;
+*/
+    /*    width: 60%;*/
+    height: 39vw;
+/*    width: 1000px;*/
+    left: 10.8vw;
+    
+}
+
+
+.maincontentchilddiv2 {
+    position: absolute;
+    width: 40vw;
+    height: 26vw;
+    left: 19vw;
+    top: 27vh;
+
+    text-align: center;
+}
+
+.maincontentchilddiv2 h1 {
+    display: inline;
+    font-family: 'Martel', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.3vw;
+    color: #2B2B2B;
+}
+
+p {
+    top: 5vw;
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 0.8vw;
+    line-height: 1.4vw;
+    text-align: center;
+}
+
+.h1div {
+    position: absolute;
+    top: -3.3vw;
+    left: 3vw;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Martel', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.3vw;
+    color: #2B2B2B;
+}
+
+#spanM {
+    display: inline-block;
+    font-size: 6vw;
+}
+
+#spanJ {
+    display: inherit;
+    font-size: 8vw;
+    color: #BA1F3B;
+}
+
+#additemButton {
+    position: absolute;
+    width: 10vw;
+    height: 3.1vw;
+    left: 9vw;
+    top: 12vh;
+}
+
+#shopnowButton {
+    position: absolute;
+    left: 21vw;
+    top: 12vh;
+}
+
+#addButton {
+    height: 5.4vw;
+    outline: none;
+}
+
+#shopButton {
+    height: 5.3vw;
+    outline: none;
+    z-index: 200;
+
+}
+
+#shopButton:active,
+#addButton:active {
+    transform: scale(0.95);
+}
+
+#maxairfadeimg {
+    position: absolute;
+    height: 32vh;
+    left: 0vw;
+    top: 58.2vh;
+    width: 66.5vw;
+}
+
+#insIcon {
+    position: absolute;
+    display: inline;
+    top: 44vw;
+    left: 4vw;
+    font-size: 0.9vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    letter-spacing: 0.8vw;
+    color: white;
+}
+
+#fbIcon {
+    position: absolute;
+    display: inline;
+    top: 44vw;
+    left: 15vw;
+    font-size: 0.9vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    letter-spacing: 0.8vw;
+    color: white;
+}
+
+#twiIcon {
+    position: absolute;
+    display: inline;
+    top: 44vw;
+    left: 25vw;
+    font-size: 0.9vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    letter-spacing: 0.8vw;
+    color: white;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .instafbtwidiv {
+        opacity: 0;
+    }
+
+    #maxairfadeimg {
+        opacity: 0;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    #maxairfadeimg {
+        opacity: 0;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 1460px) and (min-width: 1000px) {
+
+    .ellipse {
+        opacity: 0;
+    }
+}
+
+/* Mobile Screen Landscape */
+@media screen and (max-width: 950px) and (min-width: 640px) {
+    .instafbtwidiv {
+        opacity: 1;
+    }
+
+    #insIcon {
+        position: absolute;
+        display: inline;
+        top: 31vw;
+        left: 3vw;
+        font-size: 1.2vw;
+        font-family: 'Inconsolata', monospace;
+        font-weight: bold;
+        letter-spacing: 0.8vw;
+    }
+
+    #fbIcon {
+        position: absolute;
+        display: inline;
+        top: 31vw;
+        left: 15.6vw;
+        font-size: 1.2vw;
+        font-family: 'Inconsolata', monospace;
+        font-weight: bold;
+        letter-spacing: 0.8vw;
+    }
+
+    #twiIcon {
+        position: absolute;
+        display: inline;
+        top: 31vw;
+        left: 26vw;
+        font-size: 1.2vw;
+        font-family: 'Inconsolata', monospace;
+        font-weight: bold;
+        letter-spacing: 0.8vw;
+    }
+
+    .mainheading1 {
+        top: 5vh;
+        padding-top: 20px;
+        text-align: center;
+        background: #eaac9d;
+        height: 89vh;
+    }
+
+    .mainheading2 {
+        top: 5vh;
+        padding-top: 20px;
+        text-align: center;
+        background: #ddf3f5;
+        height: 89vh;
+    }
+
+    .maincontentchilddiv2 {
+        position: absolute;
+        height: 26vw;
+        left: 20.1vw;
+    }
+
+    .mainshoe {
+        z-index: ;
+        position: absolute;
+        height: 35vw;
+        left: 16.7vw;
+        top: 4.5vh;
+    }
+
+    .ellipse {
+        z-index: 1;
+        position: absolute;
+        width: 18vw;
+        height: 18vw;
+        left: 24.5vw;
+        top: 24vh;
+        border-radius: 50%;
+        background: #ffdbc5;
+        box-shadow: 0px 20px 200px rgba(250, 66, 66, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #maxairfadeimg {
+        opacity: 1;
+        position: absolute;
+        height: 15.8vh;
+        max-height: 230px;
+        top: 70vh;
+        width: 100v34
+        max-width: 530px;
+    }
+    
+     #footer {
+        height:8vh;
+        min-height: 25px;
+        font-size: 1vw;
+        padding-top: 10px;
+    }
+
+}
+
+/* Mobile Screen Portrait */
+@media screen and (max-width: 600px) {
+    .instafbtwidiv {
+        opacity: 1;
+    }
+
+    #insIcon {
+        position: absolute;
+        display: inline;
+        top: 2vw;
+        left: 10vw;
+        font-size: 2.5vw;
+        font-family: 'Inconsolata', monospace;
+        font-weight: lighter;
+        letter-spacing: 0.8vw;
+    }
+
+    #fbIcon {
+        position: absolute;
+        display: inline;
+        top: 2vw;
+        left: 47vw;
+        font-size: 2.5vw;
+        font-family: 'Inconsolata', monospace;
+        font-weight: lighter;
+        letter-spacing: 0.8vw;
+    }
+
+    #twiIcon {
+        position: absolute;
+        display: inline;
+        top: 2vw;
+        left: 81vw;
+        font-size: 2.5vw;
+        font-family: 'Inconsolata', monospace;
+        font-weight: lighter;
+        letter-spacing: 0.8vw;
+    }
+
+
+    #maxairfadeimg {
+        opacity: 1;
+        position: absolute;
+        height: 15.8vh;
+        max-height: 130px;
+        top: 43.2vh;
+        width: 100vw;
+        max-width: 520px;
+    }
+
+    .mainheading1 {
+        top: 5vh;
+        padding-top: 20px;
+        text-align: center;
+        background: #eaac9d;
+        height: 30vh;
+    }
+
+    .mainheading2 {
+        top: 5vh;
+        padding-top: 20px;
+        text-align: center;
+        background: #ddf3f5;
+        height: 65vh;
+    }
+
+    .mainshoe {
+        z-index: 1;
+        position: absolute;
+        height: 61vw;
+        left: 10vw;
+        top: 13.2vh;
+    }
+
+    .ellipse {
+        z-index: 1;
+        position: absolute;
+        width: 34vw;
+        height: 34vw;
+
+        left: 25vw;
+        top: 20vh;
+        border-radius: 50%;
+        background: #ffdbc5;
+        box-shadow: 0px 20px 200px rgba(250, 66, 66, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .maincontentchilddiv2 {
+        position: absolute;
+        width: 70vw;
+        height: 26vw;
+        left: 16.1vw;
+        top: 16vh;
+        text-align: center;
+    }
+
+    .maincontentchilddiv2 h1 {
+        display: inline;
+        font-family: 'Martel', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7.3vw;
+        color: #2B2B2B;
+        letter-spacing: 0.4vw;
+        line-height: 9vh;
+    }
+
+    #spanJ {
+        font-size: 8vh;
+    }
+
+    p {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+        text-align: center;
+        top: 15vh;
+    }
+
+    #additemButton {
+        position: absolute;
+        width: 10vw;
+        height: 3.1vw;
+        left: 6vw;
+        top: 16.2vh;
+
+    }
+
+    #shopnowButton {
+        position: absolute;
+        width: 10vw;
+        height: 3.1vw;
+        left: 36vw;
+        top: 16.5vh;
+    }
+
+    #addButton {
+        height: 13.6vw;
+
+    }
+
+    #shopButton {
+        height: 12.89vw;
+    }
+}
+
+.jordanjumpdiv {
+    opacity: 0;
+    position: absolute;
+}
+
+.jordanjumpdiv img {
+    position: absolute;
+    height: 7vh;
+    left: 51vw;
+    top: 17.7vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .jordanjumpdiv {
+        opacity: 1;
+    }
+}
